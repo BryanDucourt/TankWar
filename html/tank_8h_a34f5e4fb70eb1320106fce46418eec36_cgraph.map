@@ -1,0 +1,4 @@
+<map id="tankHitCheck" name="tankHitCheck">
+<area shape="rect" id="node1" title="判断坦克是否被击中" alt="" coords="5,5,105,32"/>
+<area shape="rect" id="node2" href="$tank_8h.html#a09cb064d4900b7a21d57bfdebc5d1620" title="删除失效炮弹（命中/出界）" alt="" coords="153,5,244,32"/>
+</map>

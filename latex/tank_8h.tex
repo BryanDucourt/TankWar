@@ -1,0 +1,445 @@
+\hypertarget{tank_8h}{}\doxysection{tank.\+h File Reference}
+\label{tank_8h}\index{tank.h@{tank.h}}
+
+
+坦克相关函数  
+
+
+{\ttfamily \#include $<$windows.\+h$>$}\newline
+Include dependency graph for tank.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=142pt]{tank_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=126pt]{tank_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structtank}{tank}}
+\item 
+struct \mbox{\hyperlink{structbomb}{bomb}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{tank_8h_a08d1565537a915d00a9ca9506f97ddcc}{enemy\+Num}}~5
+\item 
+\#define \mbox{\hyperlink{tank_8h_a4a3d07feb19dd41e0ab0394d1ac08ceb}{Speed}}~8
+\item 
+\#define \mbox{\hyperlink{tank_8h_a1965eaca47dbf3f87acdafc2208f04eb}{UP}}~0
+\item 
+\#define \mbox{\hyperlink{tank_8h_a4193cd1c8c2e6ebd0e056fa2364a663f}{D\+O\+WN}}~1
+\item 
+\#define \mbox{\hyperlink{tank_8h_a80fb826a684cf3f0d306b22aa100ddac}{R\+I\+G\+HT}}~2
+\item 
+\#define \mbox{\hyperlink{tank_8h_a437ef08681e7210d6678427030446a54}{L\+E\+FT}}~3
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{tank_8h_a55a641321d8cfa1ac909384c46bb7678}{tk\+Ctrl}} (struct \mbox{\hyperlink{structtank}{tank}} $\ast$tank\+Ctrl, int direct, B\+O\+OL if\+Bomb\+Fire)
+\begin{DoxyCompactList}\small\item\em 控制坦克移动、开火 \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structbomb}{bomb}} $\ast$ \mbox{\hyperlink{tank_8h_a1ed91f96a50310a83a1598642018f8f2}{add\+Bomb}} (struct \mbox{\hyperlink{structbomb}{bomb}} $\ast$stp\+Bomb\+Storage, struct \mbox{\hyperlink{structbomb}{bomb}} $\ast$new\+Bomb)
+\begin{DoxyCompactList}\small\item\em 增加炮弹 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{tank_8h_ab23da4484e6e28652beb2a1e66747800}{create\+Enemy\+Tank}} ()
+\begin{DoxyCompactList}\small\item\em 创建敌方坦克 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{tank_8h_a0e152c47338a6fb6daf54dc4120c1b83}{create\+Player\+Tank}} ()
+\begin{DoxyCompactList}\small\item\em 创建玩家坦克 \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structbomb}{bomb}} $\ast$ \mbox{\hyperlink{tank_8h_a09cb064d4900b7a21d57bfdebc5d1620}{delete\+Bomb}} (struct \mbox{\hyperlink{structbomb}{bomb}} $\ast$stp\+Bomb)
+\begin{DoxyCompactList}\small\item\em 删除失效炮弹（命中/出界） \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{tank_8h_a4d8042a090bd1123f6a62595250c1af2}{mov\+Bomb}} ()
+\begin{DoxyCompactList}\small\item\em 炮弹移动函数 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{tank_8h_aa981d310a0c7d31ba2acfe572f4a9d14}{mov\+Ai\+Tank}} (struct \mbox{\hyperlink{structtank}{tank}} $\ast$tank\+Ctrl)
+\item 
+B\+O\+OL \mbox{\hyperlink{tank_8h_a526472bf58c558130d19db12b400fe13}{Mov\+Check}} (struct \mbox{\hyperlink{structtank}{tank}} $\ast$tk\+Check)
+\begin{DoxyCompactList}\small\item\em 判断用户坦克是否可以移动 \end{DoxyCompactList}\item 
+B\+O\+OL \mbox{\hyperlink{tank_8h_a522768b80eb7ec956a7853e7d4aa0285}{bomb\+Mov\+Check}} (struct \mbox{\hyperlink{structbomb}{bomb}} $\ast$bm\+Check)
+\begin{DoxyCompactList}\small\item\em 判断炮弹是否可以移动 \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structtank}{tank}} $\ast$ \mbox{\hyperlink{tank_8h_a79eec033bc9ea9cf65ffc7566104ce43}{delete\+Tank}} (struct \mbox{\hyperlink{structtank}{tank}} $\ast$stp\+Tank)
+\item 
+void \mbox{\hyperlink{tank_8h_a34f5e4fb70eb1320106fce46418eec36}{tank\+Hit\+Check}} (struct \mbox{\hyperlink{structtank}{tank}} $\ast$stp\+Tank)
+\begin{DoxyCompactList}\small\item\em 判断坦克是否被击中 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{tank_8h_adeabdc07fa92efbef55b48c594bda445}{ai\+Fire\+Check}} (struct \mbox{\hyperlink{structtank}{tank}} $\ast$plr\+Tank)
+\begin{DoxyCompactList}\small\item\em 判断电脑是否开火 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structtank}{tank}} $\ast$ \mbox{\hyperlink{tank_8h_aa5ae21047863b8011bf95fc19fb5d9fa}{enemy\+Tank\+Storage}} =N\+U\+LL
+\item 
+struct \mbox{\hyperlink{structtank}{tank}} \mbox{\hyperlink{tank_8h_a5cbdea5529121940a30052f7090ae247}{player\+Tank}}
+\item 
+struct \mbox{\hyperlink{structbomb}{bomb}} $\ast$ \mbox{\hyperlink{tank_8h_ae91047134a29f9fa48a3c9e2ea425817}{bomb\+Storage}} =N\+U\+LL
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+坦克相关函数 
+
+包含控制移动函数、坦克参数、炮弹参数、状态判定等\+A\+PI \begin{DoxyAuthor}{Author}
+Bryan Ducourt 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2020/03/30 
+\end{DoxyDate}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{tank_8h_a4193cd1c8c2e6ebd0e056fa2364a663f}\label{tank_8h_a4193cd1c8c2e6ebd0e056fa2364a663f}} 
+\index{tank.h@{tank.h}!DOWN@{DOWN}}
+\index{DOWN@{DOWN}!tank.h@{tank.h}}
+\doxysubsubsection{\texorpdfstring{DOWN}{DOWN}}
+{\footnotesize\ttfamily \#define D\+O\+WN~1}
+
+
+
+Definition at line 20 of file tank.\+h.
+
+\mbox{\Hypertarget{tank_8h_a08d1565537a915d00a9ca9506f97ddcc}\label{tank_8h_a08d1565537a915d00a9ca9506f97ddcc}} 
+\index{tank.h@{tank.h}!enemyNum@{enemyNum}}
+\index{enemyNum@{enemyNum}!tank.h@{tank.h}}
+\doxysubsubsection{\texorpdfstring{enemyNum}{enemyNum}}
+{\footnotesize\ttfamily \#define enemy\+Num~5}
+
+
+
+Definition at line 17 of file tank.\+h.
+
+\mbox{\Hypertarget{tank_8h_a437ef08681e7210d6678427030446a54}\label{tank_8h_a437ef08681e7210d6678427030446a54}} 
+\index{tank.h@{tank.h}!LEFT@{LEFT}}
+\index{LEFT@{LEFT}!tank.h@{tank.h}}
+\doxysubsubsection{\texorpdfstring{LEFT}{LEFT}}
+{\footnotesize\ttfamily \#define L\+E\+FT~3}
+
+
+
+Definition at line 22 of file tank.\+h.
+
+\mbox{\Hypertarget{tank_8h_a80fb826a684cf3f0d306b22aa100ddac}\label{tank_8h_a80fb826a684cf3f0d306b22aa100ddac}} 
+\index{tank.h@{tank.h}!RIGHT@{RIGHT}}
+\index{RIGHT@{RIGHT}!tank.h@{tank.h}}
+\doxysubsubsection{\texorpdfstring{RIGHT}{RIGHT}}
+{\footnotesize\ttfamily \#define R\+I\+G\+HT~2}
+
+
+
+Definition at line 21 of file tank.\+h.
+
+\mbox{\Hypertarget{tank_8h_a4a3d07feb19dd41e0ab0394d1ac08ceb}\label{tank_8h_a4a3d07feb19dd41e0ab0394d1ac08ceb}} 
+\index{tank.h@{tank.h}!Speed@{Speed}}
+\index{Speed@{Speed}!tank.h@{tank.h}}
+\doxysubsubsection{\texorpdfstring{Speed}{Speed}}
+{\footnotesize\ttfamily \#define Speed~8}
+
+
+
+Definition at line 18 of file tank.\+h.
+
+\mbox{\Hypertarget{tank_8h_a1965eaca47dbf3f87acdafc2208f04eb}\label{tank_8h_a1965eaca47dbf3f87acdafc2208f04eb}} 
+\index{tank.h@{tank.h}!UP@{UP}}
+\index{UP@{UP}!tank.h@{tank.h}}
+\doxysubsubsection{\texorpdfstring{UP}{UP}}
+{\footnotesize\ttfamily \#define UP~0}
+
+
+
+Definition at line 19 of file tank.\+h.
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{tank_8h_a1ed91f96a50310a83a1598642018f8f2}\label{tank_8h_a1ed91f96a50310a83a1598642018f8f2}} 
+\index{tank.h@{tank.h}!addBomb@{addBomb}}
+\index{addBomb@{addBomb}!tank.h@{tank.h}}
+\doxysubsubsection{\texorpdfstring{addBomb()}{addBomb()}}
+{\footnotesize\ttfamily struct \mbox{\hyperlink{structbomb}{bomb}} $\ast$ add\+Bomb (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{structbomb}{bomb}} $\ast$}]{stp\+Bomb\+Storage,  }\item[{struct \mbox{\hyperlink{structbomb}{bomb}} $\ast$}]{new\+Bomb }\end{DoxyParamCaption})}
+
+
+
+增加炮弹 
+
+
+\begin{DoxyParams}{Parameters}
+{\em stp\+Bomb\+Storage} & 炮弹库指针 \\
+\hline
+{\em new\+Bomb} & 存储待增加炮弹数据 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 77 of file tank.\+h.
+
+Here is the caller graph for this function\+:
+% FIG 0
+\mbox{\Hypertarget{tank_8h_adeabdc07fa92efbef55b48c594bda445}\label{tank_8h_adeabdc07fa92efbef55b48c594bda445}} 
+\index{tank.h@{tank.h}!aiFireCheck@{aiFireCheck}}
+\index{aiFireCheck@{aiFireCheck}!tank.h@{tank.h}}
+\doxysubsubsection{\texorpdfstring{aiFireCheck()}{aiFireCheck()}}
+{\footnotesize\ttfamily void ai\+Fire\+Check (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{structtank}{tank}} $\ast$}]{plr\+Tank }\end{DoxyParamCaption})}
+
+
+
+判断电脑是否开火 
+
+遍历坦克库，根据电脑单位与玩家单位的位置关系判断是否开火或转向，当两单位之间中心点x坐标或y坐标之差的绝对值小于单位碰撞体积时，电脑单位开火 
+\begin{DoxyParams}{Parameters}
+{\em plr\+Tank} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 462 of file tank.\+h.
+
+Here is the call graph for this function\+:
+% FIG 1
+Here is the caller graph for this function\+:
+% FIG 2
+\mbox{\Hypertarget{tank_8h_a522768b80eb7ec956a7853e7d4aa0285}\label{tank_8h_a522768b80eb7ec956a7853e7d4aa0285}} 
+\index{tank.h@{tank.h}!bombMovCheck@{bombMovCheck}}
+\index{bombMovCheck@{bombMovCheck}!tank.h@{tank.h}}
+\doxysubsubsection{\texorpdfstring{bombMovCheck()}{bombMovCheck()}}
+{\footnotesize\ttfamily B\+O\+OL bomb\+Mov\+Check (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{structbomb}{bomb}} $\ast$}]{bm\+Check }\end{DoxyParamCaption})}
+
+
+
+判断炮弹是否可以移动 
+
+逻辑同坦克判断 
+\begin{DoxyParams}{Parameters}
+{\em bm\+Check} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+可移动返回\+T\+R\+U\+E，否则返回\+F\+A\+L\+SE 
+\end{DoxyReturn}
+
+
+Definition at line 334 of file tank.\+h.
+
+Here is the caller graph for this function\+:
+% FIG 3
+\mbox{\Hypertarget{tank_8h_ab23da4484e6e28652beb2a1e66747800}\label{tank_8h_ab23da4484e6e28652beb2a1e66747800}} 
+\index{tank.h@{tank.h}!createEnemyTank@{createEnemyTank}}
+\index{createEnemyTank@{createEnemyTank}!tank.h@{tank.h}}
+\doxysubsubsection{\texorpdfstring{createEnemyTank()}{createEnemyTank()}}
+{\footnotesize\ttfamily void create\+Enemy\+Tank (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+创建敌方坦克 
+
+
+\begin{DoxyParams}{Parameters}
+{\em stp\+Tank} & 敌方坦克库指针 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 112 of file tank.\+h.
+
+Here is the caller graph for this function\+:
+% FIG 4
+\mbox{\Hypertarget{tank_8h_a0e152c47338a6fb6daf54dc4120c1b83}\label{tank_8h_a0e152c47338a6fb6daf54dc4120c1b83}} 
+\index{tank.h@{tank.h}!createPlayerTank@{createPlayerTank}}
+\index{createPlayerTank@{createPlayerTank}!tank.h@{tank.h}}
+\doxysubsubsection{\texorpdfstring{createPlayerTank()}{createPlayerTank()}}
+{\footnotesize\ttfamily void create\+Player\+Tank (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+创建玩家坦克 
+
+
+\begin{DoxyParams}{Parameters}
+{\em stp\+Tank} & 玩家坦克指针 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 94 of file tank.\+h.
+
+Here is the caller graph for this function\+:
+% FIG 5
+\mbox{\Hypertarget{tank_8h_a09cb064d4900b7a21d57bfdebc5d1620}\label{tank_8h_a09cb064d4900b7a21d57bfdebc5d1620}} 
+\index{tank.h@{tank.h}!deleteBomb@{deleteBomb}}
+\index{deleteBomb@{deleteBomb}!tank.h@{tank.h}}
+\doxysubsubsection{\texorpdfstring{deleteBomb()}{deleteBomb()}}
+{\footnotesize\ttfamily struct \mbox{\hyperlink{structbomb}{bomb}} $\ast$ delete\+Bomb (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{structbomb}{bomb}} $\ast$}]{stp\+Bomb }\end{DoxyParamCaption})}
+
+
+
+删除失效炮弹（命中/出界） 
+
+
+\begin{DoxyParams}{Parameters}
+{\em stp\+Bomb} & 待删除炮弹指针 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+待删除炮弹前一炮弹指针 
+\end{DoxyReturn}
+
+
+Definition at line 367 of file tank.\+h.
+
+Here is the caller graph for this function\+:
+% FIG 6
+\mbox{\Hypertarget{tank_8h_a79eec033bc9ea9cf65ffc7566104ce43}\label{tank_8h_a79eec033bc9ea9cf65ffc7566104ce43}} 
+\index{tank.h@{tank.h}!deleteTank@{deleteTank}}
+\index{deleteTank@{deleteTank}!tank.h@{tank.h}}
+\doxysubsubsection{\texorpdfstring{deleteTank()}{deleteTank()}}
+{\footnotesize\ttfamily struct \mbox{\hyperlink{structtank}{tank}} $\ast$ delete\+Tank (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{structtank}{tank}} $\ast$}]{stp\+Tank }\end{DoxyParamCaption})}
+
+
+
+Definition at line 385 of file tank.\+h.
+
+\mbox{\Hypertarget{tank_8h_aa981d310a0c7d31ba2acfe572f4a9d14}\label{tank_8h_aa981d310a0c7d31ba2acfe572f4a9d14}} 
+\index{tank.h@{tank.h}!movAiTank@{movAiTank}}
+\index{movAiTank@{movAiTank}!tank.h@{tank.h}}
+\doxysubsubsection{\texorpdfstring{movAiTank()}{movAiTank()}}
+{\footnotesize\ttfamily void mov\+Ai\+Tank (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{structtank}{tank}} $\ast$}]{tank\+Ctrl }\end{DoxyParamCaption})}
+
+
+
+Definition at line 527 of file tank.\+h.
+
+Here is the call graph for this function\+:
+% FIG 7
+Here is the caller graph for this function\+:
+% FIG 8
+\mbox{\Hypertarget{tank_8h_a4d8042a090bd1123f6a62595250c1af2}\label{tank_8h_a4d8042a090bd1123f6a62595250c1af2}} 
+\index{tank.h@{tank.h}!movBomb@{movBomb}}
+\index{movBomb@{movBomb}!tank.h@{tank.h}}
+\doxysubsubsection{\texorpdfstring{movBomb()}{movBomb()}}
+{\footnotesize\ttfamily void mov\+Bomb (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+炮弹移动函数 
+
+首先判断炮弹下一时刻位置上是否有单位，根据判断结果进行移动。若存在单位则炮弹删除，否则炮弹移动到下一个位置 
+
+Definition at line 250 of file tank.\+h.
+
+Here is the call graph for this function\+:
+% FIG 9
+\mbox{\Hypertarget{tank_8h_a526472bf58c558130d19db12b400fe13}\label{tank_8h_a526472bf58c558130d19db12b400fe13}} 
+\index{tank.h@{tank.h}!MovCheck@{MovCheck}}
+\index{MovCheck@{MovCheck}!tank.h@{tank.h}}
+\doxysubsubsection{\texorpdfstring{MovCheck()}{MovCheck()}}
+{\footnotesize\ttfamily B\+O\+OL Mov\+Check (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{structtank}{tank}} $\ast$}]{tk\+Check }\end{DoxyParamCaption})}
+
+
+
+判断用户坦克是否可以移动 
+
+判断坦克下一时刻位置上是否存在障碍物，若存在，则停留在当前位置，否则移动到下一位置 
+\begin{DoxyParams}{Parameters}
+{\em tk\+Check} & 用户坦克指针 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+可移动返回\+T\+R\+U\+E，否则返回\+F\+A\+L\+SE 
+\end{DoxyReturn}
+
+
+Definition at line 299 of file tank.\+h.
+
+Here is the caller graph for this function\+:
+% FIG 10
+\mbox{\Hypertarget{tank_8h_a34f5e4fb70eb1320106fce46418eec36}\label{tank_8h_a34f5e4fb70eb1320106fce46418eec36}} 
+\index{tank.h@{tank.h}!tankHitCheck@{tankHitCheck}}
+\index{tankHitCheck@{tankHitCheck}!tank.h@{tank.h}}
+\doxysubsubsection{\texorpdfstring{tankHitCheck()}{tankHitCheck()}}
+{\footnotesize\ttfamily void tank\+Hit\+Check (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{structtank}{tank}} $\ast$}]{stp\+Tank }\end{DoxyParamCaption})}
+
+
+
+判断坦克是否被击中 
+
+敌人和玩家共用 首先判断当前坦克为玩家或是电脑，而后遍历炮弹库判断是否被击中。双方只会被对方发出的炮弹击中 
+\begin{DoxyParams}{Parameters}
+{\em stp\+Tank} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 406 of file tank.\+h.
+
+Here is the call graph for this function\+:
+% FIG 11
+\mbox{\Hypertarget{tank_8h_a55a641321d8cfa1ac909384c46bb7678}\label{tank_8h_a55a641321d8cfa1ac909384c46bb7678}} 
+\index{tank.h@{tank.h}!tkCtrl@{tkCtrl}}
+\index{tkCtrl@{tkCtrl}!tank.h@{tank.h}}
+\doxysubsubsection{\texorpdfstring{tkCtrl()}{tkCtrl()}}
+{\footnotesize\ttfamily void tk\+Ctrl (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{structtank}{tank}} $\ast$}]{tank\+Ctrl,  }\item[{int}]{direct,  }\item[{B\+O\+OL}]{if\+Bomb\+Fire }\end{DoxyParamCaption})}
+
+
+
+控制坦克移动、开火 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tank\+Ctrl} & 被操作坦克指针 \\
+\hline
+{\em direct} & 键盘接收的方向信息 \\
+\hline
+{\em if\+Bomb\+Fire} & 用户是否开火 \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 166 of file tank.\+h.
+
+Here is the call graph for this function\+:
+% FIG 12
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{tank_8h_ae91047134a29f9fa48a3c9e2ea425817}\label{tank_8h_ae91047134a29f9fa48a3c9e2ea425817}} 
+\index{tank.h@{tank.h}!bombStorage@{bombStorage}}
+\index{bombStorage@{bombStorage}!tank.h@{tank.h}}
+\doxysubsubsection{\texorpdfstring{bombStorage}{bombStorage}}
+{\footnotesize\ttfamily struct \mbox{\hyperlink{structbomb}{bomb}}$\ast$ bomb\+Storage =N\+U\+LL}
+
+
+
+Definition at line 58 of file tank.\+h.
+
+\mbox{\Hypertarget{tank_8h_aa5ae21047863b8011bf95fc19fb5d9fa}\label{tank_8h_aa5ae21047863b8011bf95fc19fb5d9fa}} 
+\index{tank.h@{tank.h}!enemyTankStorage@{enemyTankStorage}}
+\index{enemyTankStorage@{enemyTankStorage}!tank.h@{tank.h}}
+\doxysubsubsection{\texorpdfstring{enemyTankStorage}{enemyTankStorage}}
+{\footnotesize\ttfamily struct \mbox{\hyperlink{structtank}{tank}}$\ast$ enemy\+Tank\+Storage =N\+U\+LL}
+
+
+
+Definition at line 23 of file tank.\+h.
+
+\mbox{\Hypertarget{tank_8h_a5cbdea5529121940a30052f7090ae247}\label{tank_8h_a5cbdea5529121940a30052f7090ae247}} 
+\index{tank.h@{tank.h}!playerTank@{playerTank}}
+\index{playerTank@{playerTank}!tank.h@{tank.h}}
+\doxysubsubsection{\texorpdfstring{playerTank}{playerTank}}
+{\footnotesize\ttfamily struct \mbox{\hyperlink{structtank}{tank}} player\+Tank}
+
+
+
+Definition at line 24 of file tank.\+h.
+

@@ -1,0 +1,5 @@
+<map id="aiFireCheck" name="aiFireCheck">
+<area shape="rect" id="node1" title="判断电脑是否开火" alt="" coords="272,5,363,32"/>
+<area shape="rect" id="node2" href="$main_8c.html#a3fd2d18920f8a81c8bc26da302e7e458" title="用于控制电脑单位移动" alt="" coords="127,5,224,32"/>
+<area shape="rect" id="node3" href="$main_8c.html#adf1f8a6b12d53f06d22e1e0b8d972b1f" title=" " alt="" coords="5,5,79,32"/>
+</map>

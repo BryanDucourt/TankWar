@@ -1,0 +1,5 @@
+<map id="init" name="init">
+<area shape="rect" id="node1" title="初始化函数，负责初始化炮弹库、玩家单位和电脑单位 todo 以及障碍物系统" alt="" coords="5,31,44,57"/>
+<area shape="rect" id="node2" href="$tank_8h.html#ab23da4484e6e28652beb2a1e66747800" title="创建敌方坦克" alt="" coords="92,5,219,32"/>
+<area shape="rect" id="node3" href="$tank_8h.html#a0e152c47338a6fb6daf54dc4120c1b83" title="创建玩家坦克" alt="" coords="94,56,217,83"/>
+</map>

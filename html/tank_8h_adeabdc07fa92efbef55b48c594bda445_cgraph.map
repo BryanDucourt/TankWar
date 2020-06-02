@@ -1,0 +1,6 @@
+<map id="aiFireCheck" name="aiFireCheck">
+<area shape="rect" id="node1" title="判断电脑是否开火" alt="" coords="5,31,96,57"/>
+<area shape="rect" id="node2" href="$tank_8h.html#a1ed91f96a50310a83a1598642018f8f2" title="增加炮弹" alt="" coords="148,5,225,32"/>
+<area shape="rect" id="node3" href="$tank_8h.html#aa981d310a0c7d31ba2acfe572f4a9d14" title=" " alt="" coords="144,56,229,83"/>
+<area shape="rect" id="node4" href="$tank_8h.html#a526472bf58c558130d19db12b400fe13" title="判断用户坦克是否可以移动" alt="" coords="277,56,360,83"/>
+</map>

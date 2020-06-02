@@ -1,0 +1,4 @@
+<map id="init" name="init">
+<area shape="rect" id="node1" title="初始化函数，负责初始化炮弹库、玩家单位和电脑单位 todo 以及障碍物系统" alt="" coords="127,5,165,32"/>
+<area shape="rect" id="node2" href="$main_8c.html#adf1f8a6b12d53f06d22e1e0b8d972b1f" title=" " alt="" coords="5,5,79,32"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="bombMovCheck" name="bombMovCheck">
+<area shape="rect" id="node1" title="判断炮弹是否可以移动" alt="" coords="132,31,247,57"/>
+<area shape="rect" id="node2" href="$tank_8h.html#a4d8042a090bd1123f6a62595250c1af2" title="炮弹移动函数" alt="" coords="5,5,84,32"/>
+<area shape="rect" id="node3" href="$tank_8h.html#a55a641321d8cfa1ac909384c46bb7678" title="控制坦克移动、开火" alt="" coords="18,56,71,83"/>
+</map>

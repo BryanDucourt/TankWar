@@ -1,0 +1,9 @@
+<map id="main.c" name="main.c">
+<area shape="rect" id="node1" title="主函数" alt="" coords="109,5,170,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="210,229,293,256"/>
+<area shape="rect" id="node3" title=" " alt="" coords="22,80,84,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="108,80,172,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="196,80,264,107"/>
+<area shape="rect" id="node6" href="$draw_8h.html" title="绘图相关函数" alt="" coords="288,80,348,107"/>
+<area shape="rect" id="node7" href="$tank_8h.html" title="坦克相关函数" alt="" coords="289,155,348,181"/>
+</map>

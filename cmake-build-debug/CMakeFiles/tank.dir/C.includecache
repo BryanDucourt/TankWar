@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/B.Dcworkshop/tank/draw.h
+tank.h
+E:/B.Dcworkshop/tank/tank.h
+windows.h
+-
+
+E:/B.Dcworkshop/tank/main.c
+windows.h
+-
+stdio.h
+-
+stdlib.h
+-
+afxres.h
+-
+draw.h
+E:/B.Dcworkshop/tank/draw.h
+
+E:/B.Dcworkshop/tank/tank.h
+windows.h
+-
+math.h
+-
+time.h
+-
+

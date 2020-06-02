@@ -1,0 +1,158 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Data Structures"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Data Structures"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="bomb"><param name="Local" value="structbomb.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="bmCenter"><param name="Local" value="structbomb.html#ae33711646b73f1801e11af016b7cbc0d"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="bmDirect"><param name="Local" value="structbomb.html#a4aa99878be5e876eb96b5f38077b13e0"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="bmLocateLU"><param name="Local" value="structbomb.html#afe1cd3d67da5735e80a03554d81503cf"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="bmLocateRD"><param name="Local" value="structbomb.html#a53964d6f96014974c2541bc0c1e12030"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="bmMoveCheck"><param name="Local" value="structbomb.html#a06051a5a889e4ecf59fb8a16aebdad36"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="bombProducer"><param name="Local" value="structbomb.html#a49d6b945d7acb35ffa8b9931a5b4b55f"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="nextBomb"><param name="Local" value="structbomb.html#a827543217d98c49b9708aabd517cbad4"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="prevBomb"><param name="Local" value="structbomb.html#a7cfcd9f06e1c204e3aeffb2a5672224e"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="bomb_info"><param name="Local" value="structbomb__info.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="tank"><param name="Local" value="structtank.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="bomb"><param name="Local" value="structtank.html#a84eb778b8fdd5c2c8b07adbc57e59861"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="move"><param name="Local" value="structtank.html#ad5b58c778e292e45b9964bd8f6247dcd"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="nextTank"><param name="Local" value="structtank.html#a6fe21c96fbeb00aefff8ce9f9f6e23f4"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="prevTank"><param name="Local" value="structtank.html#af8ed8ece3d0ce36d44c7df04ecdb7750"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="tkCenter"><param name="Local" value="structtank.html#a0926c09a893bc4b66210e753ba27321c"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="tkDirect"><param name="Local" value="structtank.html#a5780d2ad56d957fe88a43d986c0509f8"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="tkHp"><param name="Local" value="structtank.html#acffb44bd6d6987485e05a649af6e0ddb"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="tkID"><param name="Local" value="structtank.html#ab14389b57d811f8db006d59f17f51510"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="tkLocateLU"><param name="Local" value="structtank.html#aee9a179f784f5b883637546bd9191f3b"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="tkLocateRD"><param name="Local" value="structtank.html#a48621663f9ad58d116a04e4daefc4560"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="tank_info"><param name="Local" value="structtank__info.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Data Structure Index"><param name="Local" value="classes.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Data Fields"><param name="Local" value="functions.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="All"><param name="Local" value="functions.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Variables"><param name="Local" value="functions_vars.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Files"><param name="Local" value="files.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="File List"><param name="Local" value="files.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="cmake-build-debug"><param name="Local" value="dir_95e29a8b8ee7c54052c171a88bb95675.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="CMakeFiles"><param name="Local" value="dir_f89abcb304c928c7d889aa5625570de5.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="3.15.3"><param name="Local" value="dir_f942a7a73394fda25d4213a70555b3f8.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CompilerIdC"><param name="Local" value="dir_44ea9ed243d3740341f2efeb45271ac4.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="CMakeCCompilerId.c"><param name="Local" value="_c_make_c_compiler_id_8c.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="ARCHITECTURE_ID"><param name="Local" value="_c_make_c_compiler_id_8c.html#aba35d0d200deaeb06aee95ca297acb28"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="C_DIALECT"><param name="Local" value="_c_make_c_compiler_id_8c.html#a07f8e5783674099cd7f5110e22a78cdb"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="COMPILER_ID"><param name="Local" value="_c_make_c_compiler_id_8c.html#a81dee0709ded976b2e0319239f72d174"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="DEC"><param name="Local" value="_c_make_c_compiler_id_8c.html#ad1280362da42492bbc11aa78cbf776ad"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="HEX"><param name="Local" value="_c_make_c_compiler_id_8c.html#a46d5d95daa1bef867bd0179594310ed5"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="PLATFORM_ID"><param name="Local" value="_c_make_c_compiler_id_8c.html#adbc5372f40838899018fadbc89bd588b"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="STRINGIFY"><param name="Local" value="_c_make_c_compiler_id_8c.html#a43e1cad902b6477bec893cb6430bd6c8"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="STRINGIFY_HELPER"><param name="Local" value="_c_make_c_compiler_id_8c.html#a2ae9b72bb13abaabfcf2ee0ba7d3fa1d"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="main"><param name="Local" value="_c_make_c_compiler_id_8c.html#a0ddf1224851353fc92bfbff6f499fa97"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="info_arch"><param name="Local" value="_c_make_c_compiler_id_8c.html#a59647e99d304ed33b15cb284c27ed391"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="info_compiler"><param name="Local" value="_c_make_c_compiler_id_8c.html#a4b0efeb7a5d59313986b3a0390f050f6"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="info_language_dialect_default"><param name="Local" value="_c_make_c_compiler_id_8c.html#a1ce162bad2fe6966ac8b33cc19e120b8"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="info_platform"><param name="Local" value="_c_make_c_compiler_id_8c.html#a2321403dee54ee23f0c2fa849c60f7d4"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            </UL>
+          </UL>
+        </UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="draw.h"><param name="Local" value="draw_8h.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="drawBomb"><param name="Local" value="draw_8h.html#ad80eaf8c11d9545b0ae755a2743f362f"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="drawEnemyTank"><param name="Local" value="draw_8h.html#af2572ab70577c9ea0a95d8049efacef7"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="drawPlayerTank"><param name="Local" value="draw_8h.html#add7b3204eed4031b75c22e748933daa0"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="main.c"><param name="Local" value="main_8c.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="WM_SKIP"><param name="Local" value="main_8c.html#af0c1c6ab80f10431b649ece7cf2b59da"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="bombProc"><param name="Local" value="main_8c.html#a48fbad54f1783fbf0298efbd22c9e579"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="init"><param name="Local" value="main_8c.html#a02fd73d861ef2e4aabb38c0c9ff82947"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="tankFireProc"><param name="Local" value="main_8c.html#a822a500d512b54bcfa9882cf84765f3d"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="tankMovProc"><param name="Local" value="main_8c.html#a3fd2d18920f8a81c8bc26da302e7e458"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="WinMain"><param name="Local" value="main_8c.html#adf1f8a6b12d53f06d22e1e0b8d972b1f"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="WndProc"><param name="Local" value="main_8c.html#a9135ea2a0d6fce68ba3b858226a31a4f"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="bombFire"><param name="Local" value="main_8c.html#a75c5cfe05a930f4f014db649b2d5a434"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="bombFlag"><param name="Local" value="main_8c.html#a70ca0f8297e67258eb4da9196697f821"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="bombThread"><param name="Local" value="main_8c.html#a75539535a4f83e5e925942d6aea1ce3a"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="kbDirect"><param name="Local" value="main_8c.html#aee2b5381b787ddc98c157353855ea823"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="msg_ProcFinish"><param name="Local" value="main_8c.html#af4c82730b43b3dc8689e600f09d6e39d"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="msg_ProcStart"><param name="Local" value="main_8c.html#a4afad71e27c209da488bafa06b2f81ae"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="tank.h"><param name="Local" value="tank_8h.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="tank"><param name="Local" value="structtank.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="bomb"><param name="Local" value="structtank.html#a84eb778b8fdd5c2c8b07adbc57e59861"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="move"><param name="Local" value="structtank.html#ad5b58c778e292e45b9964bd8f6247dcd"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nextTank"><param name="Local" value="structtank.html#a6fe21c96fbeb00aefff8ce9f9f6e23f4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="prevTank"><param name="Local" value="structtank.html#af8ed8ece3d0ce36d44c7df04ecdb7750"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="tkCenter"><param name="Local" value="structtank.html#a0926c09a893bc4b66210e753ba27321c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="tkDirect"><param name="Local" value="structtank.html#a5780d2ad56d957fe88a43d986c0509f8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="tkHp"><param name="Local" value="structtank.html#acffb44bd6d6987485e05a649af6e0ddb"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="tkID"><param name="Local" value="structtank.html#ab14389b57d811f8db006d59f17f51510"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="tkLocateLU"><param name="Local" value="structtank.html#aee9a179f784f5b883637546bd9191f3b"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="tkLocateRD"><param name="Local" value="structtank.html#a48621663f9ad58d116a04e4daefc4560"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="bomb"><param name="Local" value="structbomb.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="bmCenter"><param name="Local" value="structbomb.html#ae33711646b73f1801e11af016b7cbc0d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="bmDirect"><param name="Local" value="structbomb.html#a4aa99878be5e876eb96b5f38077b13e0"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="bmLocateLU"><param name="Local" value="structbomb.html#afe1cd3d67da5735e80a03554d81503cf"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="bmLocateRD"><param name="Local" value="structbomb.html#a53964d6f96014974c2541bc0c1e12030"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="bmMoveCheck"><param name="Local" value="structbomb.html#a06051a5a889e4ecf59fb8a16aebdad36"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="bombProducer"><param name="Local" value="structbomb.html#a49d6b945d7acb35ffa8b9931a5b4b55f"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nextBomb"><param name="Local" value="structbomb.html#a827543217d98c49b9708aabd517cbad4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="prevBomb"><param name="Local" value="structbomb.html#a7cfcd9f06e1c204e3aeffb2a5672224e"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="DOWN"><param name="Local" value="tank_8h.html#a4193cd1c8c2e6ebd0e056fa2364a663f"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="enemyNum"><param name="Local" value="tank_8h.html#a08d1565537a915d00a9ca9506f97ddcc"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="LEFT"><param name="Local" value="tank_8h.html#a437ef08681e7210d6678427030446a54"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="RIGHT"><param name="Local" value="tank_8h.html#a80fb826a684cf3f0d306b22aa100ddac"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Speed"><param name="Local" value="tank_8h.html#a4a3d07feb19dd41e0ab0394d1ac08ceb"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="UP"><param name="Local" value="tank_8h.html#a1965eaca47dbf3f87acdafc2208f04eb"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="addBomb"><param name="Local" value="tank_8h.html#a1ed91f96a50310a83a1598642018f8f2"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="aiFireCheck"><param name="Local" value="tank_8h.html#adeabdc07fa92efbef55b48c594bda445"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="bombMovCheck"><param name="Local" value="tank_8h.html#a522768b80eb7ec956a7853e7d4aa0285"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="createEnemyTank"><param name="Local" value="tank_8h.html#ab23da4484e6e28652beb2a1e66747800"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="createPlayerTank"><param name="Local" value="tank_8h.html#a0e152c47338a6fb6daf54dc4120c1b83"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="deleteBomb"><param name="Local" value="tank_8h.html#a09cb064d4900b7a21d57bfdebc5d1620"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="deleteTank"><param name="Local" value="tank_8h.html#a79eec033bc9ea9cf65ffc7566104ce43"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="movAiTank"><param name="Local" value="tank_8h.html#aa981d310a0c7d31ba2acfe572f4a9d14"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="movBomb"><param name="Local" value="tank_8h.html#a4d8042a090bd1123f6a62595250c1af2"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="MovCheck"><param name="Local" value="tank_8h.html#a526472bf58c558130d19db12b400fe13"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="tankHitCheck"><param name="Local" value="tank_8h.html#a34f5e4fb70eb1320106fce46418eec36"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="tkCtrl"><param name="Local" value="tank_8h.html#a55a641321d8cfa1ac909384c46bb7678"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="bombStorage"><param name="Local" value="tank_8h.html#ae91047134a29f9fa48a3c9e2ea425817"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="enemyTankStorage"><param name="Local" value="tank_8h.html#aa5ae21047863b8011bf95fc19fb5d9fa"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="playerTank"><param name="Local" value="tank_8h.html#a5cbdea5529121940a30052f7090ae247"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Globals"><param name="Local" value="globals.html"><param name="ImageNumber" value="11"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="All"><param name="Local" value="globals.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Functions"><param name="Local" value="globals_func.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Variables"><param name="Local" value="globals_vars.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Macros"><param name="Local" value="globals_defs.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+</UL>
+</BODY>
+</HTML>

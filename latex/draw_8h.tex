@@ -1,0 +1,88 @@
+\hypertarget{draw_8h}{}\doxysection{draw.\+h File Reference}
+\label{draw_8h}\index{draw.h@{draw.h}}
+
+
+绘图相关函数  
+
+
+{\ttfamily \#include \char`\"{}tank.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$windows.\+h$>$}\newline
+Include dependency graph for draw.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=158pt]{draw_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=126pt]{draw_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+B\+O\+OL \mbox{\hyperlink{draw_8h_af2572ab70577c9ea0a95d8049efacef7}{draw\+Enemy\+Tank}} (struct \mbox{\hyperlink{structtank}{tank}} $\ast$enemy\+Tank, H\+DC hdc)
+\item 
+B\+O\+OL \mbox{\hyperlink{draw_8h_add7b3204eed4031b75c22e748933daa0}{draw\+Player\+Tank}} (struct \mbox{\hyperlink{structtank}{tank}} $\ast$plr\+Tank, H\+DC hdc)
+\begin{DoxyCompactList}\small\item\em 绘制玩家坦克 \end{DoxyCompactList}\item 
+B\+O\+OL \mbox{\hyperlink{draw_8h_ad80eaf8c11d9545b0ae755a2743f362f}{draw\+Bomb}} (H\+DC hdc)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+绘图相关函数 
+
+包含各个方向坦克绘制、砖块绘制、双缓冲、炮弹绘制等api \begin{DoxyAuthor}{Author}
+Bryan Ducourt 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2020/04/02 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{draw_8h_ad80eaf8c11d9545b0ae755a2743f362f}\label{draw_8h_ad80eaf8c11d9545b0ae755a2743f362f}} 
+\index{draw.h@{draw.h}!drawBomb@{drawBomb}}
+\index{drawBomb@{drawBomb}!draw.h@{draw.h}}
+\doxysubsubsection{\texorpdfstring{drawBomb()}{drawBomb()}}
+{\footnotesize\ttfamily B\+O\+OL draw\+Bomb (\begin{DoxyParamCaption}\item[{H\+DC}]{hdc }\end{DoxyParamCaption})}
+
+
+
+Definition at line 135 of file draw.\+h.
+
+\mbox{\Hypertarget{draw_8h_af2572ab70577c9ea0a95d8049efacef7}\label{draw_8h_af2572ab70577c9ea0a95d8049efacef7}} 
+\index{draw.h@{draw.h}!drawEnemyTank@{drawEnemyTank}}
+\index{drawEnemyTank@{drawEnemyTank}!draw.h@{draw.h}}
+\doxysubsubsection{\texorpdfstring{drawEnemyTank()}{drawEnemyTank()}}
+{\footnotesize\ttfamily B\+O\+OL draw\+Enemy\+Tank (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{structtank}{tank}} $\ast$}]{enemy\+Tank,  }\item[{H\+DC}]{hdc }\end{DoxyParamCaption})}
+
+
+
+Definition at line 68 of file draw.\+h.
+
+\mbox{\Hypertarget{draw_8h_add7b3204eed4031b75c22e748933daa0}\label{draw_8h_add7b3204eed4031b75c22e748933daa0}} 
+\index{draw.h@{draw.h}!drawPlayerTank@{drawPlayerTank}}
+\index{drawPlayerTank@{drawPlayerTank}!draw.h@{draw.h}}
+\doxysubsubsection{\texorpdfstring{drawPlayerTank()}{drawPlayerTank()}}
+{\footnotesize\ttfamily B\+O\+OL draw\+Player\+Tank (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{structtank}{tank}} $\ast$}]{plr\+Tank,  }\item[{H\+DC}]{hdc }\end{DoxyParamCaption})}
+
+
+
+绘制玩家坦克 
+
+
+\begin{DoxyParams}{Parameters}
+{\em plr\+Tank} & 玩家坦克指针 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 30 of file draw.\+h.
+

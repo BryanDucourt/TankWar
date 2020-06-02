@@ -1,0 +1,7 @@
+<map id="tankMovProc" name="tankMovProc">
+<area shape="rect" id="node1" title="用于控制电脑单位移动" alt="" coords="5,31,103,57"/>
+<area shape="rect" id="node2" href="$tank_8h.html#adeabdc07fa92efbef55b48c594bda445" title="判断电脑是否开火" alt="" coords="151,31,241,57"/>
+<area shape="rect" id="node3" href="$tank_8h.html#a1ed91f96a50310a83a1598642018f8f2" title="增加炮弹" alt="" coords="293,5,371,32"/>
+<area shape="rect" id="node4" href="$tank_8h.html#aa981d310a0c7d31ba2acfe572f4a9d14" title=" " alt="" coords="289,56,375,83"/>
+<area shape="rect" id="node5" href="$tank_8h.html#a526472bf58c558130d19db12b400fe13" title="判断用户坦克是否可以移动" alt="" coords="423,56,505,83"/>
+</map>

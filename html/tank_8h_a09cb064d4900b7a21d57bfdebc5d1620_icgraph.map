@@ -1,0 +1,5 @@
+<map id="deleteBomb" name="deleteBomb">
+<area shape="rect" id="node1" title="删除失效炮弹（命中/出界）" alt="" coords="153,31,244,57"/>
+<area shape="rect" id="node2" href="$tank_8h.html#a4d8042a090bd1123f6a62595250c1af2" title="炮弹移动函数" alt="" coords="16,5,95,32"/>
+<area shape="rect" id="node3" href="$tank_8h.html#a34f5e4fb70eb1320106fce46418eec36" title="判断坦克是否被击中" alt="" coords="5,56,105,83"/>
+</map>

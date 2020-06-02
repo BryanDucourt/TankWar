@@ -1,0 +1,7 @@
+<map id="addBomb" name="addBomb">
+<area shape="rect" id="node1" title="增加炮弹" alt="" coords="411,31,488,57"/>
+<area shape="rect" id="node2" href="$tank_8h.html#adeabdc07fa92efbef55b48c594bda445" title="判断电脑是否开火" alt="" coords="272,5,363,32"/>
+<area shape="rect" id="node5" href="$tank_8h.html#a55a641321d8cfa1ac909384c46bb7678" title="控制坦克移动、开火" alt="" coords="291,56,344,83"/>
+<area shape="rect" id="node3" href="$main_8c.html#a3fd2d18920f8a81c8bc26da302e7e458" title="用于控制电脑单位移动" alt="" coords="127,5,224,32"/>
+<area shape="rect" id="node4" href="$main_8c.html#adf1f8a6b12d53f06d22e1e0b8d972b1f" title=" " alt="" coords="5,5,79,32"/>
+</map>

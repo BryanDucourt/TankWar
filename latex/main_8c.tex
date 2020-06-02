@@ -1,0 +1,262 @@
+\hypertarget{main_8c}{}\doxysection{main.\+c File Reference}
+\label{main_8c}\index{main.c@{main.c}}
+
+
+主函数  
+
+
+{\ttfamily \#include $<$windows.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$afxres.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}draw.\+h\char`\"{}}\newline
+Include dependency graph for main.\+c\+:
+% FIG 0
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{main_8c_af0c1c6ab80f10431b649ece7cf2b59da}{W\+M\+\_\+\+S\+K\+IP}}~(W\+M\+\_\+\+U\+S\+ER+0)
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+D\+W\+O\+RD W\+I\+N\+A\+PI \mbox{\hyperlink{main_8c_a48fbad54f1783fbf0298efbd22c9e579}{bomb\+Proc}} (L\+P\+V\+O\+ID lp\+Parameter)
+\begin{DoxyCompactList}\small\item\em 用于维持画面刷新 \end{DoxyCompactList}\item 
+D\+W\+O\+RD W\+I\+N\+A\+PI \mbox{\hyperlink{main_8c_a3fd2d18920f8a81c8bc26da302e7e458}{tank\+Mov\+Proc}} (L\+P\+V\+O\+ID lp\+Parameter)
+\begin{DoxyCompactList}\small\item\em 用于控制电脑单位移动 \end{DoxyCompactList}\item 
+D\+W\+O\+RD W\+I\+N\+A\+PI \mbox{\hyperlink{main_8c_a822a500d512b54bcfa9882cf84765f3d}{tank\+Fire\+Proc}} (L\+P\+V\+O\+ID lp\+Parameter)
+\begin{DoxyCompactList}\small\item\em 控制电脑单位开火间隔 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_a02fd73d861ef2e4aabb38c0c9ff82947}{init}} ()
+\begin{DoxyCompactList}\small\item\em 初始化函数，负责初始化炮弹库、玩家单位和电脑单位 todo 以及障碍物系统 \end{DoxyCompactList}\item 
+L\+R\+E\+S\+U\+LT C\+A\+L\+L\+B\+A\+CK \mbox{\hyperlink{main_8c_a9135ea2a0d6fce68ba3b858226a31a4f}{Wnd\+Proc}} (H\+W\+ND, U\+I\+NT, W\+P\+A\+R\+AM, L\+P\+A\+R\+AM)
+\item 
+int W\+I\+N\+A\+PI \mbox{\hyperlink{main_8c_adf1f8a6b12d53f06d22e1e0b8d972b1f}{Win\+Main}} (H\+I\+N\+S\+T\+A\+N\+CE h\+Instance, H\+I\+N\+S\+T\+A\+N\+CE h\+Prev\+Instance, P\+S\+TR lp\+Cmd\+Line, int n\+Cmd\+Show)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+B\+O\+OL \mbox{\hyperlink{main_8c_a75c5cfe05a930f4f014db649b2d5a434}{bomb\+Fire}} =F\+A\+L\+SE
+\item 
+H\+A\+N\+D\+LE \mbox{\hyperlink{main_8c_a75539535a4f83e5e925942d6aea1ce3a}{bomb\+Thread}}
+\item 
+H\+A\+N\+D\+LE \mbox{\hyperlink{main_8c_a4afad71e27c209da488bafa06b2f81ae}{msg\+\_\+\+Proc\+Start}}
+\item 
+H\+A\+N\+D\+LE \mbox{\hyperlink{main_8c_af4c82730b43b3dc8689e600f09d6e39d}{msg\+\_\+\+Proc\+Finish}}
+\item 
+int \mbox{\hyperlink{main_8c_aee2b5381b787ddc98c157353855ea823}{kb\+Direct}} =0
+\item 
+int \mbox{\hyperlink{main_8c_a70ca0f8297e67258eb4da9196697f821}{bomb\+Flag}} =0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+主函数 
+
+初始化游戏内容，预加载地图 \begin{DoxyAuthor}{Author}
+Bryan Ducourt 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2020/04/01 
+\end{DoxyDate}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{main_8c_af0c1c6ab80f10431b649ece7cf2b59da}\label{main_8c_af0c1c6ab80f10431b649ece7cf2b59da}} 
+\index{main.c@{main.c}!WM\_SKIP@{WM\_SKIP}}
+\index{WM\_SKIP@{WM\_SKIP}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{WM\_SKIP}{WM\_SKIP}}
+{\footnotesize\ttfamily \#define W\+M\+\_\+\+S\+K\+IP~(W\+M\+\_\+\+U\+S\+ER+0)}
+
+
+
+Definition at line 16 of file main.\+c.
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8c_a48fbad54f1783fbf0298efbd22c9e579}\label{main_8c_a48fbad54f1783fbf0298efbd22c9e579}} 
+\index{main.c@{main.c}!bombProc@{bombProc}}
+\index{bombProc@{bombProc}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{bombProc()}{bombProc()}}
+{\footnotesize\ttfamily D\+W\+O\+RD W\+I\+N\+A\+PI bomb\+Proc (\begin{DoxyParamCaption}\item[{L\+P\+V\+O\+ID}]{lp\+Parameter }\end{DoxyParamCaption})}
+
+
+
+用于维持画面刷新 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lp\+Parameter} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 162 of file main.\+c.
+
+Here is the caller graph for this function\+:
+% FIG 1
+\mbox{\Hypertarget{main_8c_a02fd73d861ef2e4aabb38c0c9ff82947}\label{main_8c_a02fd73d861ef2e4aabb38c0c9ff82947}} 
+\index{main.c@{main.c}!init@{init}}
+\index{init@{init}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+初始化函数，负责初始化炮弹库、玩家单位和电脑单位 todo 以及障碍物系统 
+
+
+
+Definition at line 143 of file main.\+c.
+
+Here is the call graph for this function\+:
+% FIG 2
+Here is the caller graph for this function\+:
+% FIG 3
+\mbox{\Hypertarget{main_8c_a822a500d512b54bcfa9882cf84765f3d}\label{main_8c_a822a500d512b54bcfa9882cf84765f3d}} 
+\index{main.c@{main.c}!tankFireProc@{tankFireProc}}
+\index{tankFireProc@{tankFireProc}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{tankFireProc()}{tankFireProc()}}
+{\footnotesize\ttfamily D\+W\+O\+RD W\+I\+N\+A\+PI tank\+Fire\+Proc (\begin{DoxyParamCaption}\item[{L\+P\+V\+O\+ID}]{lp\+Parameter }\end{DoxyParamCaption})}
+
+
+
+控制电脑单位开火间隔 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lp\+Parameter} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 204 of file main.\+c.
+
+Here is the caller graph for this function\+:
+% FIG 4
+\mbox{\Hypertarget{main_8c_a3fd2d18920f8a81c8bc26da302e7e458}\label{main_8c_a3fd2d18920f8a81c8bc26da302e7e458}} 
+\index{main.c@{main.c}!tankMovProc@{tankMovProc}}
+\index{tankMovProc@{tankMovProc}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{tankMovProc()}{tankMovProc()}}
+{\footnotesize\ttfamily D\+W\+O\+RD W\+I\+N\+A\+PI tank\+Mov\+Proc (\begin{DoxyParamCaption}\item[{L\+P\+V\+O\+ID}]{lp\+Parameter }\end{DoxyParamCaption})}
+
+
+
+用于控制电脑单位移动 
+
+W\+M\+\_\+\+P\+A\+I\+N\+T消息开始执行时发送msg\+\_\+\+Proc\+Start消息，线程接收到消息后开始进行运算，运算完成后重置msg\+\_\+\+Proc\+Start消息并发送msg\+\_\+\+Proc\+Finish消息 
+\begin{DoxyParams}{Parameters}
+{\em lp\+Parameter} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 185 of file main.\+c.
+
+Here is the call graph for this function\+:
+% FIG 5
+Here is the caller graph for this function\+:
+% FIG 6
+\mbox{\Hypertarget{main_8c_adf1f8a6b12d53f06d22e1e0b8d972b1f}\label{main_8c_adf1f8a6b12d53f06d22e1e0b8d972b1f}} 
+\index{main.c@{main.c}!WinMain@{WinMain}}
+\index{WinMain@{WinMain}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{WinMain()}{WinMain()}}
+{\footnotesize\ttfamily int W\+I\+N\+A\+PI Win\+Main (\begin{DoxyParamCaption}\item[{H\+I\+N\+S\+T\+A\+N\+CE}]{h\+Instance,  }\item[{H\+I\+N\+S\+T\+A\+N\+CE}]{h\+Prev\+Instance,  }\item[{P\+S\+TR}]{lp\+Cmd\+Line,  }\item[{int}]{n\+Cmd\+Show }\end{DoxyParamCaption})}
+
+
+
+Definition at line 28 of file main.\+c.
+
+Here is the call graph for this function\+:
+% FIG 7
+\mbox{\Hypertarget{main_8c_a9135ea2a0d6fce68ba3b858226a31a4f}\label{main_8c_a9135ea2a0d6fce68ba3b858226a31a4f}} 
+\index{main.c@{main.c}!WndProc@{WndProc}}
+\index{WndProc@{WndProc}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{WndProc()}{WndProc()}}
+{\footnotesize\ttfamily L\+R\+E\+S\+U\+LT C\+A\+L\+L\+B\+A\+CK Wnd\+Proc (\begin{DoxyParamCaption}\item[{H\+W\+ND}]{hwnd,  }\item[{U\+I\+NT}]{message,  }\item[{W\+P\+A\+R\+AM}]{w\+Param,  }\item[{L\+P\+A\+R\+AM}]{l\+Param }\end{DoxyParamCaption})}
+
+
+
+Definition at line 67 of file main.\+c.
+
+Here is the call graph for this function\+:
+% FIG 8
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{main_8c_a9135ea2a0d6fce68ba3b858226a31a4f_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{main_8c_a75c5cfe05a930f4f014db649b2d5a434}\label{main_8c_a75c5cfe05a930f4f014db649b2d5a434}} 
+\index{main.c@{main.c}!bombFire@{bombFire}}
+\index{bombFire@{bombFire}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{bombFire}{bombFire}}
+{\footnotesize\ttfamily B\+O\+OL bomb\+Fire =F\+A\+L\+SE}
+
+
+
+Definition at line 17 of file main.\+c.
+
+\mbox{\Hypertarget{main_8c_a70ca0f8297e67258eb4da9196697f821}\label{main_8c_a70ca0f8297e67258eb4da9196697f821}} 
+\index{main.c@{main.c}!bombFlag@{bombFlag}}
+\index{bombFlag@{bombFlag}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{bombFlag}{bombFlag}}
+{\footnotesize\ttfamily int bomb\+Flag =0}
+
+
+
+Definition at line 19 of file main.\+c.
+
+\mbox{\Hypertarget{main_8c_a75539535a4f83e5e925942d6aea1ce3a}\label{main_8c_a75539535a4f83e5e925942d6aea1ce3a}} 
+\index{main.c@{main.c}!bombThread@{bombThread}}
+\index{bombThread@{bombThread}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{bombThread}{bombThread}}
+{\footnotesize\ttfamily H\+A\+N\+D\+LE bomb\+Thread}
+
+
+
+Definition at line 18 of file main.\+c.
+
+\mbox{\Hypertarget{main_8c_aee2b5381b787ddc98c157353855ea823}\label{main_8c_aee2b5381b787ddc98c157353855ea823}} 
+\index{main.c@{main.c}!kbDirect@{kbDirect}}
+\index{kbDirect@{kbDirect}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{kbDirect}{kbDirect}}
+{\footnotesize\ttfamily int kb\+Direct =0}
+
+
+
+Definition at line 19 of file main.\+c.
+
+\mbox{\Hypertarget{main_8c_af4c82730b43b3dc8689e600f09d6e39d}\label{main_8c_af4c82730b43b3dc8689e600f09d6e39d}} 
+\index{main.c@{main.c}!msg\_ProcFinish@{msg\_ProcFinish}}
+\index{msg\_ProcFinish@{msg\_ProcFinish}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{msg\_ProcFinish}{msg\_ProcFinish}}
+{\footnotesize\ttfamily H\+A\+N\+D\+LE msg\+\_\+\+Proc\+Finish}
+
+
+
+Definition at line 18 of file main.\+c.
+
+\mbox{\Hypertarget{main_8c_a4afad71e27c209da488bafa06b2f81ae}\label{main_8c_a4afad71e27c209da488bafa06b2f81ae}} 
+\index{main.c@{main.c}!msg\_ProcStart@{msg\_ProcStart}}
+\index{msg\_ProcStart@{msg\_ProcStart}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{msg\_ProcStart}{msg\_ProcStart}}
+{\footnotesize\ttfamily H\+A\+N\+D\+LE msg\+\_\+\+Proc\+Start}
+
+
+
+Definition at line 18 of file main.\+c.
+

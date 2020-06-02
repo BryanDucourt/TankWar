@@ -1,0 +1,6 @@
+<map id="tkCtrl" name="tkCtrl">
+<area shape="rect" id="node1" title="控制坦克移动、开火" alt="" coords="5,56,59,83"/>
+<area shape="rect" id="node2" href="$tank_8h.html#a1ed91f96a50310a83a1598642018f8f2" title="增加炮弹" alt="" coords="125,5,203,32"/>
+<area shape="rect" id="node3" href="$tank_8h.html#a522768b80eb7ec956a7853e7d4aa0285" title="判断炮弹是否可以移动" alt="" coords="107,56,221,83"/>
+<area shape="rect" id="node4" href="$tank_8h.html#a526472bf58c558130d19db12b400fe13" title="判断用户坦克是否可以移动" alt="" coords="123,107,205,133"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="tank.h" name="tank.h">
+<area shape="rect" id="node1" title="坦克相关函数" alt="" coords="7,5,65,32"/>
+<area shape="rect" id="node2" href="$draw_8h.html" title="绘图相关函数" alt="" coords="6,80,66,107"/>
+<area shape="rect" id="node3" href="$main_8c.html" title="主函数" alt="" coords="5,155,67,181"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="WinMain" name="WinMain">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,79,133"/>
+<area shape="rect" id="node2" href="$main_8c.html#a02fd73d861ef2e4aabb38c0c9ff82947" title="初始化函数，负责初始化炮弹库、玩家单位和电脑单位 todo 以及障碍物系统" alt="" coords="156,31,195,57"/>
+<area shape="rect" id="node5" href="$main_8c.html#a822a500d512b54bcfa9882cf84765f3d" title="控制电脑单位开火间隔" alt="" coords="127,81,223,108"/>
+<area shape="rect" id="node6" href="$main_8c.html#a3fd2d18920f8a81c8bc26da302e7e458" title="用于控制电脑单位移动" alt="" coords="127,132,224,159"/>
+<area shape="rect" id="node11" href="$main_8c.html#a9135ea2a0d6fce68ba3b858226a31a4f" title=" " alt="" coords="137,183,213,209"/>
+<area shape="rect" id="node3" href="$tank_8h.html#ab23da4484e6e28652beb2a1e66747800" title="创建敌方坦克" alt="" coords="272,5,399,32"/>
+<area shape="rect" id="node4" href="$tank_8h.html#a0e152c47338a6fb6daf54dc4120c1b83" title="创建玩家坦克" alt="" coords="274,56,397,83"/>
+<area shape="rect" id="node7" href="$tank_8h.html#adeabdc07fa92efbef55b48c594bda445" title="判断电脑是否开火" alt="" coords="290,132,381,159"/>
+<area shape="rect" id="node8" href="$tank_8h.html#a1ed91f96a50310a83a1598642018f8f2" title="增加炮弹" alt="" coords="451,107,528,133"/>
+<area shape="rect" id="node9" href="$tank_8h.html#aa981d310a0c7d31ba2acfe572f4a9d14" title=" " alt="" coords="447,157,532,184"/>
+<area shape="rect" id="node10" href="$tank_8h.html#a526472bf58c558130d19db12b400fe13" title="判断用户坦克是否可以移动" alt="" coords="580,157,663,184"/>
+<area shape="rect" id="node12" href="$main_8c.html#a48fbad54f1783fbf0298efbd22c9e579" title="用于维持画面刷新" alt="" coords="295,183,376,209"/>
+</map>

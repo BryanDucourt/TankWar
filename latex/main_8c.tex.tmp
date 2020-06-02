@@ -1,0 +1,70 @@
+\hypertarget{main_8c}{}\doxysection{main.\+c File Reference}
+\label{main_8c}\index{main.c@{main.c}}
+{\ttfamily \#include $<$windows.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}tank.\+h\char`\"{}}\newline
+Include dependency graph for main.\+c\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+L\+R\+E\+S\+U\+LT C\+A\+L\+L\+B\+A\+CK \mbox{\hyperlink{main_8c_a9135ea2a0d6fce68ba3b858226a31a4f}{Wnd\+Proc}} (H\+W\+ND, U\+I\+NT, W\+P\+A\+R\+AM, L\+P\+A\+R\+AM)
+\item 
+int W\+I\+N\+A\+PI \mbox{\hyperlink{main_8c_adf1f8a6b12d53f06d22e1e0b8d972b1f}{Win\+Main}} (H\+I\+N\+S\+T\+A\+N\+CE h\+Instance, H\+I\+N\+S\+T\+A\+N\+CE h\+Prev\+Instance, P\+S\+TR lp\+Cmd\+Line, int n\+Cmd\+Show)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+B\+O\+OL \mbox{\hyperlink{main_8c_a75c5cfe05a930f4f014db649b2d5a434}{bomb\+Fire}} =F\+A\+L\+SE
+\item 
+int \mbox{\hyperlink{main_8c_aee2b5381b787ddc98c157353855ea823}{kb\+Direct}} =0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8c_adf1f8a6b12d53f06d22e1e0b8d972b1f}\label{main_8c_adf1f8a6b12d53f06d22e1e0b8d972b1f}} 
+\index{main.c@{main.c}!WinMain@{WinMain}}
+\index{WinMain@{WinMain}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{WinMain()}{WinMain()}}
+{\footnotesize\ttfamily int W\+I\+N\+A\+PI Win\+Main (\begin{DoxyParamCaption}\item[{H\+I\+N\+S\+T\+A\+N\+CE}]{h\+Instance,  }\item[{H\+I\+N\+S\+T\+A\+N\+CE}]{h\+Prev\+Instance,  }\item[{P\+S\+TR}]{lp\+Cmd\+Line,  }\item[{int}]{n\+Cmd\+Show }\end{DoxyParamCaption})}
+
+
+
+Definition at line 7 of file main.\+c.
+
+Here is the call graph for this function\+:
+% FIG 1
+\mbox{\Hypertarget{main_8c_a9135ea2a0d6fce68ba3b858226a31a4f}\label{main_8c_a9135ea2a0d6fce68ba3b858226a31a4f}} 
+\index{main.c@{main.c}!WndProc@{WndProc}}
+\index{WndProc@{WndProc}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{WndProc()}{WndProc()}}
+{\footnotesize\ttfamily L\+R\+E\+S\+U\+LT C\+A\+L\+L\+B\+A\+CK Wnd\+Proc (\begin{DoxyParamCaption}\item[{H\+W\+ND}]{hwnd,  }\item[{U\+I\+NT}]{message,  }\item[{W\+P\+A\+R\+AM}]{w\+Param,  }\item[{L\+P\+A\+R\+AM}]{l\+Param }\end{DoxyParamCaption})}
+
+
+
+Definition at line 34 of file main.\+c.
+
+Here is the caller graph for this function\+:
+% FIG 2
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{main_8c_a75c5cfe05a930f4f014db649b2d5a434}\label{main_8c_a75c5cfe05a930f4f014db649b2d5a434}} 
+\index{main.c@{main.c}!bombFire@{bombFire}}
+\index{bombFire@{bombFire}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{bombFire}{bombFire}}
+{\footnotesize\ttfamily B\+O\+OL bomb\+Fire =F\+A\+L\+SE}
+
+
+
+Definition at line 4 of file main.\+c.
+
+\mbox{\Hypertarget{main_8c_aee2b5381b787ddc98c157353855ea823}\label{main_8c_aee2b5381b787ddc98c157353855ea823}} 
+\index{main.c@{main.c}!kbDirect@{kbDirect}}
+\index{kbDirect@{kbDirect}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{kbDirect}{kbDirect}}
+{\footnotesize\ttfamily int kb\+Direct =0}
+
+
+
+Definition at line 5 of file main.\+c.
+
